@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Nerf Turret Design 2</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="button_up">↑</string>
+    <string name="button_down">↓</string>
+    <string name="button_left">←</string>
+    <string name="button_right">→</string>
+    <string name="button_shoot">Shoot</string>
+</resources>
