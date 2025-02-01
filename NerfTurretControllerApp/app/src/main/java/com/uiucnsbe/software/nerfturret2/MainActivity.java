@@ -1,5 +1,8 @@
 package com.uiucnsbe.software.nerfturret2;
 
+import android.bluetooth.BluetoothAdapter;
+import android.bluetooth.BluetoothDevice;
+import android.bluetooth.le.BluetoothLeScanner;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.Toast; // For displaying simple messages
@@ -7,10 +10,17 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
+    private BluetoothAdapter bluetoothAdapter;
+    private BluetoothLeScanner bluetoothLeScanner;
+    private BluetoothDevice device;
+
+    private static final int REQUEST_ENABLE_BT = 1;  // Request code for enabling Bluetooth
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);  // Your XML layout file
+
+        bluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
 
         // Find buttons by their IDs from activity_main.xml
         Button upButton = findViewById(R.id.button_up);
@@ -24,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
             // Handle up button click
             Toast.makeText(MainActivity.this, "Up button clicked", Toast.LENGTH_SHORT).show();
             // Add your turret control logic here
+
         });
 
         downButton.setOnClickListener(v -> {

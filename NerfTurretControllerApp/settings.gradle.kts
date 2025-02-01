@@ -15,4 +15,3 @@ dependencyResolutionManagement {
 
 rootProject.name = "Nerf Turret Design 2"
 include(":app")
- 

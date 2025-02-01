@@ -10,16 +10,16 @@
         android:id="@+id/guideline_vertical"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintGuidePercent="0.5" />
+        android:orientation="vertical"/>
+<!--        app:layout_constraintGuidePercent="0.5"/>-->
 
     <!-- Horizontal Guideline (for up and down buttons) -->
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline_horizontal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuidePercent="0.5" />
+        android:orientation="horizontal"/>
+<!--        app:layout_constraintGuidePercent="0.5"-->
 
     <!-- Up Button -->
     <Button
