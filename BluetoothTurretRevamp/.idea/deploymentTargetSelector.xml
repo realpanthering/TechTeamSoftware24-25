@@ -2,7 +2,11 @@
 <project version="4">
   <component name="deploymentTargetSelector">
     <selectionStates>
+<<<<<<< HEAD
       <SelectionState runConfigName="app">
+=======
+      <SelectionState runConfigName="Nerf_Turret_Design_2.app">
+>>>>>>> f11ac180dd920190f7b3f62d39cbf0c9506b58a1
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
     </selectionStates>

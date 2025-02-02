@@ -3,7 +3,11 @@
   <component name="ProjectMigrations">
     <option name="MigrateToGradleLocalJavaHome">
       <set>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$" />
+=======
+        <option value="$PROJECT_DIR$/NerfTurretControllerApp" />
+>>>>>>> f11ac180dd920190f7b3f62d39cbf0c9506b58a1
       </set>
     </option>
   </component>

@@ -4,4 +4,11 @@
     <string name="search_linked_BT">Search Linked Bluetooth Devices</string>
     <string name="clear">Clear</string>
     <string name="linked_bluetooth_devices">Linked Bluetooth devices:</string>
+    <string name="button_up">BUTTON_UP\n</string>
+    <string name="button_down">BUTTON_DOWN\n</string>
+    <string name="button_left">BUTTON_LEFT\n</string>
+    <string name="button_right">BUTTON_RIGHT\n</string>
+    <string name="button_shoot">BUTTON_SHOOT\n</string>
+
+
 </resources>
